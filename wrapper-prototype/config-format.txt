@@ -1,0 +1,90 @@
+# © 2020 The MITRE Corporation
+#This software (or technical data) was produced for the U. S. Government under contract SB-1341-14-CQ-0010, and is subject to the Rights in Data-General Clause 52.227-14, Alt. IV (DEC 2007)
+#Released under MITRE PRE #18-4297.
+
+
+FORMAT FOR CONFIG FILES
+
+
+#====================================================
+The rationale for using a flat file was exploratory.
+Although the user could specify things in a Python file
+a converter block will have to be written for native data 
+types in converter.py regardless from CASE JSON-LD.
+
+
+#====================================================
+Inheritance is specified between NLG items by ||||.
+
+core_Trace
+||||
+propbundle_Device
+
+
+#====================================================
+New lines separate clustered embedded data.
+
+core_Trace.has_changed[==][{bool}]
+||||
+propbundle_Device.manufacturer[==][{str}]
+propbundle_Device.model[==][{str}]
+
+core_ControlledVocabulary.value[==][{str}] 
+||||
+duck_Hash.hash_method[==][{|^^|}] 
+duck_Hash.hash_value[==][{str}]
+
+
+#====================================================
+If object does not have any properties specified, simply do:
+core_Action.[==][{str}]
+instead of
+core_Action.performer[==][{str}]Victor
+
+
+#====================================================
+Embedded inheritance (when a property is a sub_) uses |~~|
+to separate the property's inheritance block from the other
+properties of the same object. The inheritance itself is
+indicated by using |^^| for the value of the sub_ property,
+signifying its value should be the object above it.
+
+propbundle_File.extension[==][{str}]                raw
+propbundle_File.filename[==][{list:str}]            HD-2018080901-01.raw[ | ]my-image.raw
+|~~|
+core_ControlledVocabulary.value[==][{str}]          filesystem info
+|~~|
+propbundle_File.filesystem_type[==][{str}]          |^^|
+propbundle_File.filepath[==][{str}]                 C:/evidence/HD-2018080901-01.raw
+
+In this example we are shown a propbundle_File block.
+The first |~~| signifies an embedded block will be occurring.
+The second |~~| triggers the creation of the object.
+The |^^| is used as the value for propbundle_File.filesystem_type
+to indicate that it is a sub_ of the last object above, and
+thus the core_ControlledVocabulary object is passed into it.
+The rest of the propbundle_File is then created as normal.
+
+
+#====================================================
+Also observe in the above example that lists for non-NLG types
+are seprated with
+[ | ]
+on the same line.
+
+
+#====================================================
+Top-level objects (top of a block separated by newlines/a cluster)
+can be tagged using
+[{OBJ-TAG}my-tag-name
+
+This cluster/top-level object can then be passed into a property with
+[{OBJ-REF}]         my-tag-name
+or
+[{list:OBJ-REF}]    my-tag-name[ | ] another-tag-name
+syntax, with the value being the name of the user-defined tags.
+
+#====================================================
+The final line of the config file must be a newline.
+If the last line were to be after a line using a [{OBJ-REF}]
+use a |~~| line and then the newline below it.

@@ -1,0 +1,6 @@
+propbundle_ConfigurationSetting.item_name=if
+propbundle_ConfigurationSetting.item_value=/home/case/downloads/fake-file.txt
+
+propbundle_ConfigurationSetting.item_name=of
+propbundle_ConfigurationSetting.item_value=/home/case/downloads/fake-copy.txt
+

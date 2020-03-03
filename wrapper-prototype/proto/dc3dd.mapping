@@ -1,0 +1,36 @@
+# © 2020 The MITRE Corporation
+#This software (or technical data) was produced for the U. S. Government under contract SB-1341-14-CQ-0010, and is subject to the Rights in Data-General Clause 52.227-14, Alt. IV (DEC 2007)
+#Released under MITRE PRE #18-4297.
+
+# MAPPING FILE
+
+# Format for this file should be:
+# cli_flag=NLG_Object.propertyName
+
+if=propbundle_ConfigurationSetting
+ifs=propbundle_ConfigurationSetting
+of=propbundle_ConfigurationSetting
+hof=propbundle_ConfigurationSetting
+ofs=propbundle_ConfigurationSetting
+hofs=propbundle_ConfigurationSetting
+ofsz=propbundle_ConfigurationSetting
+hash=propbundle_ConfigurationSetting
+log=propbundle_ConfigurationSetting
+hlog=propbundle_ConfigurationSetting
+mlog=propbundle_ConfigurationSetting
+fhod=propbundle_ConfigurationSetting
+rec=propbundle_ConfigurationSetting
+wipe=propbundle_ConfigurationSetting
+hwipe=propbundle_ConfigurationSetting
+pat=propbundle_ConfigurationSetting
+tpat=propbundle_ConfigurationSetting
+cnt=propbundle_ConfigurationSetting
+iskip=propbundle_ConfigurationSetting
+oskip=propbundle_ConfigurationSetting
+app=propbundle_ConfigurationSetting
+ssz=propbundle_ConfigurationSetting
+bufsz=propbundle_ConfigurationSetting
+verb=propbundle_ConfigurationSetting
+nwspc=propbundle_ConfigurationSetting
+b10=propbundle_ConfigurationSetting
+corruptoutput=propbundle_ConfigurationSetting

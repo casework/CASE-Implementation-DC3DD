@@ -1,0 +1,34 @@
+
+core_Tool.tool_type[==][{str}]acquisition
+core_Tool.creator[==][{str}]DC3
+core_Tool.version[==][{str}]7.2.646
+
+core_Trace.has_changed[==][{bool}]True
+||||
+propbundle_Device.manufacturer[==][{str}]Western Digital
+propbundle_Device.model[==][{str}]WD1234
+||||
+duck_Hash.hash_method[==][{str}]SHA256
+duck_Hash.hash_value[==][{str}]7ea081166336119da78ee4bbdbd06840b94efe28988a2bdb0bcf2387a481e283
+||||
+propbundle_File.created_time[==][{datetime}]2018-08-09T22:36:49.32Z
+propbundle_File.extension[==][{str}]raw
+propbundle_File.filename[==][{str}]HD-2018080901-01.raw
+propbundle_File.filesystem_type[==][{str}]NTFS
+propbundle_File.file_path[==][{str}]C:/evidence/HD-2018080901-01.raw
+propbundle_File.is_directory[==][{bool}]False
+propbundle_File.size_in_bytes[==][{int}]90080500
+||||
+propbundle_UNIXAccount.display_name[==][{str}]Vic
+
+core_Action.name[==][{str}]acquired
+||||
+propbundle_ActionReferences.instrument_refs[==][{str}]tool_uuid
+propbundle_ActionReferences.location_refs[==][{str}]DC3
+propbundle_ActionReferences.performer_refs[==][{str}]investigator_uuid
+propbundle_ActionReferences.environment_refs[==][{str}]forensicscomputer_uuid
+
+context_ProvenanceRecord.description[==][{str}]Hard drive from subject computer.
+context_ProvenanceRecord.exhibit_number[==][{str}]DC3-20180823-001dd
+context_ProvenanceRecord.object_refs[==][{str}]device-forensicduplicate-uuid
+

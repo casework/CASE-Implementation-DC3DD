@@ -1,0 +1,198 @@
+{
+  "@context": {
+    "@vocab": "http://case.example.org/core#",
+    "case": "http://case.example.org/core#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:b41ea5e6-a250-4017-9cac-4aa8ebb6ff59",
+      "@type": "ActionReferences",
+      "EnvironmentRef": "<case_python_api.NLG.Missing object at 0x7fe4e3547a90>",
+      "InstrumentRefs": {
+        "@id": "cbedc4d2-1d3a-41f8-a9bc-752da7a4d1d9"
+      },
+      "LocationRefs": {
+        "@id": "fc9ea596-c280-41e0-bee3-c823e31a5a48"
+      },
+      "ObjectRefs": "<case_python_api.NLG.Missing object at 0x7fe4e3547b90>",
+      "ParticipantRefs": "<case_python_api.NLG.Missing object at 0x7fe4e3547b50>",
+      "PerformerRefs": {
+        "@id": "41432d6d-397f-4721-89d1-a3db03089cbb"
+      },
+      "ResultRefs": "<case_python_api.NLG.Missing object at 0x7fe4e3547ad0>"
+    },
+    {
+      "@id": "fa8547f6-0ef0-40ad-8715-00759b906c8a",
+      "@type": "Trace",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.260790"
+      },
+      "HasChanged": true,
+      "State": "<case_python_api.NLG.Missing object at 0x7fe4e3547550>",
+      "propertyBundle": [
+        {
+          "@id": "_:ac58865f-411d-4aa2-99d5-ded91166a01e"
+        },
+        {
+          "@id": "_:5808af36-3da8-4827-b86b-246b2ec2667a"
+        },
+        {
+          "@id": "_:717c5c36-f6b6-4a65-8e3c-2006359c9391"
+        }
+      ]
+    },
+    {
+      "@id": "b335d560-4ddb-478b-aea4-4e107ecdfc81",
+      "@type": "ControlledVocabulary",
+      "ConstrainingVocabularyName": "<case_python_api.NLG.Missing object at 0x7fe4e3547110>",
+      "ConstrainingVocabularyRef": "<case_python_api.NLG.Missing object at 0x7fe4e3547150>",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.265361"
+      },
+      "Value": "NTFS"
+    },
+    {
+      "@id": "18b51e57-a98e-4ea7-b4ef-7d2d20c7b0a7",
+      "@type": "ProvenanceRecord",
+      "ContextObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.269455"
+      },
+      "ExhibitNumber": "<case_python_api.NLG.Missing object at 0x7fe4e3547750>",
+      "ObjectRefs": "<case_python_api.NLG.Missing object at 0x7fe4e3547790>"
+    },
+    {
+      "@id": "_:717c5c36-f6b6-4a65-8e3c-2006359c9391",
+      "@type": "UNIXAccount",
+      "GID": "<case_python_api.NLG.Missing object at 0x7fe4e356b990>",
+      "Groups": "<case_python_api.NLG.Missing object at 0x7fe4e356b9d0>",
+      "Shell": "<case_python_api.NLG.Missing object at 0x7fe4e356ba10>"
+    },
+    {
+      "@id": "4028febd-d0fd-4803-b5ca-785d636c8867",
+      "@type": "ProvenanceRecord",
+      "ContextObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.269763"
+      },
+      "ExhibitNumber": "<case_python_api.NLG.Missing object at 0x7fe4e3547750>",
+      "ObjectRefs": "<case_python_api.NLG.Missing object at 0x7fe4e3547790>"
+    },
+    {
+      "@id": "cbedc4d2-1d3a-41f8-a9bc-752da7a4d1d9",
+      "@type": "Tool",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.268088"
+      },
+      "Creator": "some organization",
+      "Name": "<case_python_api.NLG.Missing object at 0x7fe4e3547390>",
+      "References": "<case_python_api.NLG.Missing object at 0x7fe4e35474d0>",
+      "ServicePack": "<case_python_api.NLG.Missing object at 0x7fe4e3547450>",
+      "ToolType": "acquisition",
+      "Version": "0.1.0"
+    },
+    {
+      "@id": "c929c778-c1b5-4f58-8ff3-dc7f04382b1a",
+      "@type": "Hash",
+      "DuckObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.267090"
+      },
+      "HashMethod": {
+        "@id": "119fc9b3-5a5a-436c-9ece-d563155f7b31"
+      },
+      "HashValue": "7ea081166336119da78ee4bbdbd06840b94efe28988a2bdb0bcf2387a481e283"
+    },
+    {
+      "@id": "ff340866-8f2a-4116-ad66-9331cb903ac3",
+      "@type": "Action",
+      "ActionCount": "<case_python_api.NLG.Missing object at 0x7fe4e3547050>",
+      "ActionStatus": "<case_python_api.NLG.Missing object at 0x7fe4e353cf10>",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.267534"
+      },
+      "EndTime": "<case_python_api.NLG.Missing object at 0x7fe4e353cf90>",
+      "Errors": "<case_python_api.NLG.Missing object at 0x7fe4e353cfd0>",
+      "StartTime": "<case_python_api.NLG.Missing object at 0x7fe4e353cf50>",
+      "SubactionRefs": "<case_python_api.NLG.Missing object at 0x7fe4e3547090>",
+      "propertyBundle": {
+        "@id": "_:b41ea5e6-a250-4017-9cac-4aa8ebb6ff59"
+      }
+    },
+    {
+      "@id": "fc9ea596-c280-41e0-bee3-c823e31a5a48",
+      "@type": "Location",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.268441"
+      }
+    },
+    {
+      "@id": "_:5808af36-3da8-4827-b86b-246b2ec2667a",
+      "@type": "File",
+      "AccessedTime": "<case_python_api.NLG.Missing object at 0x7fe4e3553dd0>",
+      "CreatedTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-08-09T22:36:49.320000"
+      },
+      "Extension": "raw",
+      "Filename": "HD-2018080901-01.raw",
+      "Filepath": "C:/evidence/HD-2018080901-01.raw",
+      "FilesystemType": {
+        "@id": "b335d560-4ddb-478b-aea4-4e107ecdfc81"
+      },
+      "IsDirectory": false,
+      "MetadataChangeTime": "<case_python_api.NLG.Missing object at 0x7fe4e3553e10>",
+      "ModifiedTime": "<case_python_api.NLG.Missing object at 0x7fe4e3553d90>",
+      "SizeInBytes": 90080500
+    },
+    {
+      "@id": "eecc83a6-4d3f-41f8-a022-5e3dbd229fe6",
+      "@type": "Tool",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.260485"
+      },
+      "Creator": "DC3",
+      "Name": "<case_python_api.NLG.Missing object at 0x7fe4e3547390>",
+      "References": "<case_python_api.NLG.Missing object at 0x7fe4e35474d0>",
+      "ServicePack": "<case_python_api.NLG.Missing object at 0x7fe4e3547450>",
+      "ToolType": "acquisition",
+      "Version": "<case_python_api.NLG.Missing object at 0x7fe4e35473d0>"
+    },
+    {
+      "@id": "_:ac58865f-411d-4aa2-99d5-ded91166a01e",
+      "@type": "Device",
+      "DeviceType": "<case_python_api.NLG.Missing object at 0x7fe4e3550550>",
+      "Manufacturer": "Western Digital",
+      "Model": "WD1234",
+      "SerialNumber": "<case_python_api.NLG.Missing object at 0x7fe4e3550610>"
+    },
+    {
+      "@id": "41432d6d-397f-4721-89d1-a3db03089cbb",
+      "@type": "Identity",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.268686"
+      }
+    },
+    {
+      "@id": "119fc9b3-5a5a-436c-9ece-d563155f7b31",
+      "@type": "ControlledVocabulary",
+      "ConstrainingVocabularyName": "<case_python_api.NLG.Missing object at 0x7fe4e3547110>",
+      "ConstrainingVocabularyRef": "<case_python_api.NLG.Missing object at 0x7fe4e3547150>",
+      "CoreObjectCreationTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2019-05-08T19:12:21.266757"
+      },
+      "Value": "SHA256"
+    }
+  ]
+}
