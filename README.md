@@ -7,7 +7,15 @@ embedding Python in C will not have to begin without some ground work.
 
 # CLI Wrapper Prototype
 
-This is a proof-of-concept (POC) that started out with a need to represent information from DC3DD in CASE format.
+### Development Status: Alpha
+
+Alpha status implies:
+- Designation of versions of CASE and UCO the project supports.
+- Follow Semantic Versioning (SEMVER).
+
+This is an implementation that started out with a need to represent information from DC3DD in CASE format.
+
+### Description
 
 During discussions with the current maintainer it was established that the tool is meant to be easy, fast, and lightweght.
 Thus, the initial idea of embedding Python into the C codebase was scrapped and a CLI wrapper written instead.
