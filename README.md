@@ -32,7 +32,7 @@ that the user wishes to represent via the config-format.txt file's description, 
 from strings to the code's datatypes (in this case, strings to Pythonic str, bool, int, and datetime objects).
 
 A mapping file is used to illustrate how a direct mapping file can be used to map a tool field to a CASE field.
-Obviously, this example is not comprehensive as this POC unintentionally evolved into illustrating several ideas.
+Obviously, this example is not comprehensive as this implementation unintentionally evolved into illustrating several ideas.
 
 Future ideas involve: adding GUI/easier interface for manual ingestion, an update to CASE version past v0.1.0, and the possible move towards this being a easily imported library to support small tool developers on GitHub who would like to express investigative metadata along with their tool output, enabling ingest into larger household names like Autopsy.
 
